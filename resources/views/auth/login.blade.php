@@ -8,9 +8,9 @@
                     <div class="card auth-card shadow-sm">
                         <div class="card-body p-4 p-md-5">
                             <!-- Alert Message -->
-                            @if(session('success'))
+                            @if(session('sukses'))
                                 <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                    {{ session('success') }}
+                                    {{ session('sukses') }}
                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             @endif
